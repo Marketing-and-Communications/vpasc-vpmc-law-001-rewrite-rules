@@ -1,4 +1,5 @@
 [
+    "^/(.*) https://law.tamu.edu.dev.sites-marcom.cloud.tamu.edu/ [H=^dev.law.cloud.tamu.edu$,R=301,L]",
     "^//.* /index.html [R,L]",
     "^(.*)/$ $1/index.html [R,L]",
     "^(((?!\\.).)*)?(/\\?.*)$ $1/index.html [R,L]",
